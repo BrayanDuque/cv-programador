@@ -12484,4 +12484,8 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.texto-justificado {
+  text-align: justify;
+}
 /*# sourceMappingURL=custom.css.map */
