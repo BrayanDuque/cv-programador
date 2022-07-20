@@ -5,9 +5,10 @@ const fragment = document.createDocumentFragment();
 
 
 dedo.addEventListener("click",()=>{
-    cantidad = 10;
+    cantidad = "10";
     numero.innerHTML = cantidad + 1
-
+ 
+        
     dedo.classList.add("text-primary")
 })
 
