@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brayan Duque</title>
+    <link rel="stylesheet" href="./sass/custom.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+
+    <!-- barra de navegación -->
+    <nav class="navbar navbar-expand-md bg-dark fixed-top mb-5">
+        <div class="container-fluid text-white">
+          <a class="navbar-brand text-white fs-3" href="#"><i class="bi bi-bootstrap"></i>ryan</a>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#Proyectos">Proyectos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- barra de navegación -->
+
+    <section id="inicio">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-md-7 my-5">
+                    <div class="border border-none shadow-lg">
+                        <div class="card">
+                            <div class="card-body">
+                                    <h4 class="text-center text-uppercase mb-3"><b>Hola, soy un desarrollador junior</b></h4>
+                                    <p>Mi nombre es <b>Brayan Duque</b>, soy un desarrollador junior <b>Front-end</b> con conocimientos en <b>HTML</b>, <b>CSS</b>, <b>BOOTSTRAP</b> Y <b>JAVASCRIPT</b>.</p>
+                                    <p>Me adapto a las condiciones del proyecto o empresa, me caracterizo por mis capacidades de mejorar cada dia, trabajo en equipo, busqueda de soluciones, puntualidad y responsabilidad.</p>
+                                </div>
+                            </div>
+                          </div>
+                </div>
+                <div class="col-12 col-md-5 my-5">
+                    <div class="container text-center bg-dark text-white border border-none rounded shadow-lg">
+                        <img src="./asset/brayan.jpg" alt="foto-brayan" class="img-fluid w-25 rounded-pill mt-3">
+                            <div class="d-flex flex-column justify-content-center mt-3 mx-3 mx-md-0">
+                                <p><i class="bi bi-person-fill"></i> 21 años</p>
+                                <p><i class="bi bi-google"></i> Bradumar2016@gmail.com</p>
+                                <p><i class="bi bi-telephone-fill"></i> +57 3138362970</p>
+                                <p><i class="bi bi-geo-alt-fill"></i> Medellín, Antioquia</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Proyectos" class="mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 shadow-lg">
+                    <div class="my-4">
+                        <h2>Proyectos</h2>
+                        <p>Estos son unos de los proyectos que he realizado</p>
+                    </div>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./asset/galeria.png" class="d-block w-100" alt="galeria">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./asset/merca-free.png" class="d-block w-100" alt="merca-free">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./asset/huddle.png" class="d-block w-100" alt="huddle">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./asset/fylo-1.png" class="d-block w-100" alt="fylo-1">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./asset/fylo-2.png" class="d-block w-100" alt="fylo-2">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                </div>
+                <div class="col-12 col-md-5">
+                    <div class="card text-center w-50 m-5">
+                        <div class="card-body">
+                          ¿Te gusto mi CV?
+                          <div>
+                              <button class="btn" id="like"><i class="bi bi-hand-thumbs-up fs-3"></i></button>
+                              <span class="text-muted" id="numero">10</span>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark  py-4">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <a href="https://github.com/BrayanDuque" target="_blank" class="text-decoration-none text-white fs-1"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/brayan-duque-8209491a9/" target="_blank" class="text-decoration-none text-white fs-1 mx-4"><i class="bi bi-linkedin"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+573138362970" target="_blank" class="text-decoration-none text-white fs-1"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
