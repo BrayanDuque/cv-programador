@@ -3,20 +3,13 @@ const dedo = document.getElementById("like")
 // const fragment = document.createDocumentFragment();
 
 
+let cantidad = 10;
 
 dedo.addEventListener("click",()=>{
-    let cantidad = 10;
+    cantidad ++
+    numero.textContent = cantidad
+    dedo.classList.add("text-primary")
 
-    cantidad++;
-    numero.value = cantidad;
-    numero.textContent = numero.value;
     
 })
-dedo.addEventListener("click",()=>{
-    dedo.classList.add("text-primary")
-})
 
-dedo.addEventListener("dblclick",()=>{
-    numero.textContent = numero.value - 1
-    dedo.classList.remove("text-primary")
-})
